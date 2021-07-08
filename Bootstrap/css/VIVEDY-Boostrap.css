@@ -3350,7 +3350,7 @@ fieldset:disabled .btn {
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(26, 26, 26, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(255, 116, 116, 0.5);
 }
 
 .btn-check:checked + .btn-outline-primary,
@@ -3362,7 +3362,7 @@ fieldset:disabled .btn {
 
 .btn-check:checked + .btn-outline-primary:focus,
 .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(26, 26, 26, 0.5);
+ box-shadow: 0 0 0 0.25rem rgba(255, 116, 116, 0.5);
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
@@ -10880,24 +10880,33 @@ th {
 /*========== website Fonts end ==========*/
 
 /* ========== all css used on homepage start ==========*/
+.homepage-tittle-box {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 8rem;
+}
 .Phenomena-HomePage-Tittle{
   font-family: "Phenomena-Regular";
   font-size: 250px;
   color: var(--bs-darkred);
   letter-spacing: 0px;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 7rem;
   animation: left-to-right 2.5s forwards;
 }
 .homePage-SVG{
   max-width: 40rem;
   max-height: 40rem;
-  padding: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   animation: bottom-up 2.5s forwards;
 }
-.hompage-movies-btn{
-  margin-left: 11rem;
+.homepage-movies-btn{
+  margin-left: 5rem;
+  margin-right: 5rem;
   animation: left-to-right-btn 2.5s forwards;
 }
 .homeContainer::after{
@@ -10924,10 +10933,10 @@ th {
   margin-right: auto;
   margin-left: auto;
 }
+/*========== Transparent Nav bar start ==========*/
 .navbar-transparent{
   background-color: #ffffff00;
 }
-/*========== Transparent Nav bar start ==========*/
 .navbar-transparent .navbar-brand {
   color: var(--bs-darkred);
 }
@@ -10965,7 +10974,6 @@ th {
         transform: translateX(0);
     }
 }
-
 @keyframes bottom-up{
     0%{
         opacity: 0;
@@ -10980,22 +10988,22 @@ th {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .homePage-SVG{
-    max-width: 20rem;
-    max-height: 20rem;
-    padding: 3rem;
-    animation: bottom-up 2.5s forwards;
-    position: absolute;
-  }
   .Phenomena-HomePage-Tittle{
-    font-size: 100px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 0rem;
+    font-size: 110px;
   }
-  .hompage-movies-btn{
-    margin-left: 3rem;
+  .homepage-tittle-box {
+    margin: 0rem;
+    text-align: center;
+  }
+  .homepage-movies-btn{
+    margin-left: 0rem;
+    margin-right: 0rem;
     position: relative;
+  }
+  .homePage-SVG{
+    margin-top: 1rem;
+    max-width: 14rem;
+    max-height: 14rem;
   }
 }
 
