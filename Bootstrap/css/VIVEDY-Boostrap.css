@@ -595,8 +595,15 @@ progress {
   color: #919aa1;
 }
 
-
-
+.homeContainer{
+  width: 100%;
+  height: 100vh;
+  padding-top: 10rem;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .container,
 .container-fluid,
@@ -606,6 +613,7 @@ progress {
 .container-xl,
 .container-xxl {
   width: 100%;
+  padding-top: 10rem;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -650,7 +658,7 @@ progress {
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1320px;
+    max-width: 1700px;
   }
   .homeContainer{
     max-width: 1700px;
@@ -10904,6 +10912,16 @@ th {
   margin-right: auto;
   animation: bottom-up 2.5s forwards;
 }
+.aboutPage-SVG{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  max-width: 32rem;
+  max-height: 32rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: bottom-up 2.5s forwards;
+}
 .homepage-movies-btn{
   margin-left: 5rem;
   margin-right: 5rem;
@@ -10924,15 +10942,6 @@ th {
   -webkit-transform: skew(33deg, 0deg);
   transform: skew(33deg, 0deg);
 }
-.homeContainer{
-  width: 100%;
-  height: 100vh;
-  padding-top: 10rem;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
 /*========== Transparent Nav bar start ==========*/
 .navbar-transparent{
   background-color: #ffffff00;
@@ -10949,6 +10958,24 @@ th {
 .navbar-transparent .nav-link.active{
   color: var(--bs-secondary);
 }
+.icons-links{
+  font-size: 17px;
+  margin-left:0.75rem;
+  margin-right:0.75rem;
+  cursor: pointer;
+}
+.icon-center{
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color:#737272;
+  right: 4%;
+  top: 95%;
+  z-index: 2;
+}
+
 /*========== Transparent Nav bar end ==========*/
 /* ========== all css used on homepage end ==========*/
 
@@ -11005,24 +11032,106 @@ th {
     max-width: 14rem;
     max-height: 14rem;
   }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .homepage-tittle-box {
+    margin: 0rem;
+    text-align: center;
+  }
+  .icons-links{
+    font-size: 15px;
+    margin-left:0.50rem;
+    margin-right:0.50rem;
+    cursor: pointer;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  .Phenomena-HomePage-Tittle{
+    font-size: 160px;
+  }
+  .homepage-tittle-box {
+    margin: 0rem;
+    text-align: center;
+  }
+  .homePage-SVG{
+    margin-top: 1rem;
+    max-width: 18rem;
+    max-height: 18rem;
+  }
+  .icons-links{
+    font-size: 18px;
+    margin-left:0.50rem;
+    margin-right:0.50rem;
+    cursor: pointer;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .Phenomena-HomePage-Tittle{
+    font-size: 160px;
+  }
+   .homepage-tittle-box {
+    margin: 0rem;
+    text-align: center;
+  }
+  .homePage-SVG{
+    margin-top: 1rem;
+    max-width: 18rem;
+    max-height: 18rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .homepage-tittle-box {
+    margin: 3rem;
+  }
+  .Phenomena-HomePage-Tittle{
+    font-size: 140px;
+  }
+  .homePage-SVG{
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+  .homepage-movies-btn{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .homeContainer{
+    padding-top: 14rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1399px) {
+  .homepage-tittle-box {
+    margin: 2rem;
+    margin-top: 6rem;
+  }
+  .Phenomena-HomePage-Tittle{
+    font-size: 240px;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0;
+  }
+  .homePage-SVG{
+    max-width: 35rem;
+    max-height: 35rem;
+  }
+  .homepage-movies-btn{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .homeContainer{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+  }
 }
