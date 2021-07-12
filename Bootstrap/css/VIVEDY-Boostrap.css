@@ -10864,6 +10864,7 @@ th {
 }
 .pageTittle-colorRed{
   color: var(--bs-darkred);
+  letter-spacing: 0px;
 }
 /*========== About Page css ==========*/
 /*========== privacyPage start ==========*/
@@ -10876,6 +10877,78 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
+/* ------------------------------ SignUp Start ------------------------------ */
+.signUp-Card{
+  position: relative;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  max-width: 550px;
+  height: 100%;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--bs-light);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-signup{
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  border: 2px solid #dddddd;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.textTittle-signup-form{
+  position: relative;
+  font-family: 'Poppins-Black';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+.signUp-Cardbody{
+  margin-top: 3rem;
+  margin:0.5rem;
+}
+.light-text-signup{
+  padding-top: 2rem;
+  font-family: 'Poppins-Regular';
+  letter-spacing: 0px;
+}
+.link-text-signup{
+  padding-top: 2rem;
+  font-family: 'Poppins-Regular';
+  letter-spacing: 0px; 
+  text-decoration: underline;
+  color: var(--bs-darkred);
+}
+.signUpPage-SVG{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 70rem;
+  max-height: 70rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Go-Back-btn{
+  position:absolute;
+  bottom: 3%;
+  left: 2%;
+  font-family: 'Poppins-Regular';
+  letter-spacing: 0px; 
+  text-decoration: underline;
+  color: var(--bs-darkred);
+  cursor: url(/svg/GoBackArrow-SVG.svg), auto;
+  align-items: center;
+  padding: 1rem;
+}
+.Go-Back-btn:hover{
+  color: #afafaf;
+}
+/* ------------------------------- SignUp End ------------------------------- */
 /*========== privacyPage End ==========*/
 /*========== website Fonts start ==========*/
 @font-face {
