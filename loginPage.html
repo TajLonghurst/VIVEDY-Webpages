@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIVEDY || LoginPage</title>
+    <title>VIVEDY || LogInPage</title>
     <link rel="stylesheet" href="Bootstrap/css/VIVEDY-Boostrap.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body style="background-color: #eeeeee93;">
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-transparent fixed-top">
-        <a class="navbar-brand" href="#">VIVEDY</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="Index.html">VIVEDY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,12 +38,38 @@
                 </li>
             </ul>
             <form class="form-inline">
-                <button href="#" class="btn btn-outline-primary Poppins-Bold" type="submit">Login</button>
+                <a class="btn btn-outline-primary Poppins-Bold" href="LoginPage.html" type="submit">Login</a>
             </form>
         </div>
     </nav>
+    <div class="container SignupContainer">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="Login-Card">
+                    <h1 class="Poppins-Bold-PageTittle text-center">Log<span class="pageTittle-colorRed"> IN</span>
+                    </h1>
+                    <p class="textTittle-signup-form">Username</p>
+                    <input class="input-signup" type="text">
+                    <p class="textTittle-signup-form">Password</p>
+                    <input class="input-signup" type="text">
+                    <div class="signUp-Cardbody">
+                        <button class="btn btn-outline-primary Poppins-Bold" type="submit">Log in</button>
+                        <p class="light-text-signup">Don't have an account ? <span> <a class="link-text-signup"
+                                    href="loginPage.html">Sign Up</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <img class="LoginPage-SVG" src="/svg/loginUpPage-SVG.svg" alt="SignUpPage img failed to load">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                    <a href="Index.html" class="Go-Back-btn">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Nav Bar-->
-    <!--Container-->
 </body>
 
 </html>

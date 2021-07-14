@@ -10885,7 +10885,7 @@ th {
   max-width: 525px;
   height: 100%;
   padding: 1.5rem;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   padding-bottom: 0.5rem;
   background-color: var(--bs-light);
   display:block;
@@ -10945,21 +10945,46 @@ th {
   margin-right: auto;
 }
 .Go-Back-btn{
-  position:absolute;
-  bottom: 4%;
-  left: 3%;
+  position:relative;
   font-family: 'Poppins-Regular';
   letter-spacing: 0px; 
   text-decoration: underline;
   color: var(--bs-darkred);
   cursor: url(/svg/GoBackArrow-SVG.svg), auto;
-  align-items: center;
+  text-align: center;
   padding: 1rem;
 }
 .Go-Back-btn:hover{
   color: #afafaf;
 }
 /* ------------------------------- SignUp End ------------------------------- */
+/* ------------------------------ Log In Start ------------------------------ */
+.Login-Card{
+  position: relative;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  max-width: 525px;
+  max-height: 600px;
+  margin: 6rem;
+  padding: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--bs-light);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.LoginPage-SVG{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 40rem;
+  max-height: 40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ------------------------------- Log In End ------------------------------- */
 /*========== privacyPage End ==========*/
 /*========== website Fonts start ==========*/
 @font-face {
@@ -11293,6 +11318,8 @@ th {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     border-radius: 35px;
+    margin-left: none;
+    margin-right: none;
   }
   .textTittle-signup-form{
     letter-spacing: 0px;
@@ -11308,11 +11335,14 @@ th {
     padding-top: 2rem;
     font-size: 0.65rem; 
   }
-  .Go-Back-btn{
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    text-align: center;
+  /*Login Page*/
+  .LoginPage-SVG{
+   display: none;
+  }
+  .Login-Card{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 25px;
   }
 }
 
@@ -11370,6 +11400,12 @@ th {
     display: none;
   }
   /*PRIVACYPage END*/
+  .signUpPage-SVG{
+    display: none;
+  }
+  .LoginPage-SVG{
+   display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -11408,6 +11444,13 @@ th {
     display: none;
   }
   /*PRIVACYPage END*/
+  /*SIGNUP PAGE*/
+  .signUpPage-SVG{
+    display: none;
+  }
+  .LoginPage-SVG{
+   display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -11466,6 +11509,22 @@ th {
     display: unset;
   }
   /*PRIVACYPage END*/
+  /*SIGNUP PAGE*/
+  .signUpPage-SVG{
+    display: unset;
+    max-width: 32rem;
+    max-height: 32rem;
+  }
+  .LoginPage-SVG{
+    display: unset;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 30rem;
+    max-height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -11538,4 +11597,24 @@ th {
     display: unset;
   }
   /*PRIVACYPage END*/
+  /*SIGNUP PAGE START*/
+  .signUpPage-SVG{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 70rem;
+    max-height: 70rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .LoginPage-SVG{
+    display: unset;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 40rem;
+    max-height: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
