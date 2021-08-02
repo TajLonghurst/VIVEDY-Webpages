@@ -4926,12 +4926,14 @@ fieldset:disabled .btn {
   display: inline-block;
   padding: 0.35em 0.65em;
   font-size: 0.75em;
-  font-weight: 700;
+  font-family: "Poppins-Regular";
   line-height: 1;
   color: #fff;
+  background: var(--bs-darkred);
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  border-radius: 25px;
 }
 
 .badge:empty {
@@ -10828,14 +10830,17 @@ th {
 .list-group-item .h6 {
   color: inherit;
 }
-
 .card-title, .card-header {
   color: inherit;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                              Custom Added Css                              */
+/* -------------------------------------------------------------------------- */
 
-/*[========== MY CUTSOME CSS ==========}*/
-/*About Page css*/
+
+
+/* -------------------------------- AboutPage ------------------------------- */
 .aboutCard{
   border: 2px solid #000;
   width: 100%;
@@ -10866,8 +10871,8 @@ th {
   color: var(--bs-darkred);
   letter-spacing: 0px;
 }
-/*========== About Page css ==========*/
-/*========== privacyPage start ==========*/
+/* -------------------------------- AboutPage ------------------------------- */
+/* ------------------------------- PrivacyPage ------------------------------ */
 .privacyPage-SVG{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -10924,12 +10929,11 @@ th {
   margin:0.5rem;
 }
 .light-text-signup{
-  padding-top: 2rem;
+  margin-top: 2rem;
   font-family: 'Poppins-Regular';
   letter-spacing: 0px;
 }
 .link-text-signup{
-  padding-top: 2rem;
   font-family: 'Poppins-Regular';
   letter-spacing: 0px; 
   text-decoration: underline;
@@ -10958,7 +10962,7 @@ th {
   color: #afafaf;
 }
 /* ------------------------------- SignUp End ------------------------------- */
-/* ------------------------------ Log In Start ------------------------------ */
+/* ------------------------------- LogIn Page ------------------------------- */
 .Login-Card{
   position: relative;
   border: 2px solid #dddddd;
@@ -10985,8 +10989,8 @@ th {
   margin-right: auto;
 }
 /* ------------------------------- Log In End ------------------------------- */
-/*========== privacyPage End ==========*/
-/*========== website Fonts start ==========*/
+/* ------------------------------ Privacy Page ------------------------------ */
+/* -------------------------- Custome WebsiteFonts -------------------------- */
 @font-face {
   font-family: 'Poppins-Bold';
   src: url(/VIVEDYFonts/PoppinsFont/Poppins-Bold.ttf) format("truetype");
@@ -11033,9 +11037,8 @@ th {
   font-family: 'Phenomena-Regular';
   font-size: 1rem;
 }
-/*========== website Fonts end ==========*/
-
-/* ========== all css used on homepage start ==========*/
+/* -------------------------- Custome WebsiteFonts -------------------------- */
+/* -------------------------------- HomePage -------------------------------- */
 .homepage-tittle-box {
   position: relative;
   display: -ms-flexbox;
@@ -11110,7 +11113,8 @@ th {
   */
   transform: skewY(185deg);
 }
-/*========== Transparent Nav bar start ==========*/
+/* -------------------------------- HomePage -------------------------------- */
+/* --------------------------- Transparent Nav Bar -------------------------- */
 .navbar-transparent{
   background-color: #ffffff00;
 }
@@ -11146,11 +11150,75 @@ th {
   top: 95%;
   z-index: 2;
 }
-/*========== Transparent Nav bar end ==========*/
-/* ========== HOMEPAGE end ==========*/
-
-
-/*========= Animations start ==========*/
+/* --------------------------- Transparent Nav Bar -------------------------- */
+/* ------------------------------- MoviesPage ------------------------------- */
+.background::after{
+  transform: skewY(3deg);
+  transform-origin:left bottom;
+  background-color:#dddddd ;
+}
+.card-body-movies{
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  height: 9rem;
+}
+.card-img-container{
+  position: relative;
+  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+.movie-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 4rem;
+}
+.movie-card-img,
+.movie-card-img-top,
+.movie-card-img-bottom {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
+.movie-card-tittle{
+  font-family:"Poppins-Bold";
+  font-size: 20px;
+  text-align: center;
+  margin: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+.movie-card-category{
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  text-align: center;
+  margin: 1rem;
+  text-transform: none;
+  font-weight: 500;
+}
+.movie-card-plus-bg {
+  height: 60px;
+  width: 60px;
+  background-image: linear-gradient( to right, #A80000, #161212);
+  border-radius: 50%;
+  align-self: center;
+  margin-top: -55px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.movie-card-plus-icon{
+  color: #fff;
+  padding: 11.5px;
+}
+/* ----------------------------- MoviesPage End ----------------------------- */
+/* ------------------------------- Animations ------------------------------- */
 @keyframes left-to-right{
     0%{
         opacity: 0;
@@ -11248,11 +11316,7 @@ th {
     -webkit-animation: tada 1.5s ease infinite;
             animation: tada 1.5s ease infinite;
 }
-/*========= Animations end ==========*/
-
-
-
-
+/* ------------------------------- Animations ------------------------------- */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*HOMEPAGE START*/
@@ -11346,7 +11410,7 @@ th {
     margin-bottom: 0.20rem;
   }
   .light-text-signup{
-    padding-top: 2rem;
+    margin-top: 2rem;
     font-size: 0.65rem; 
   }
   .link-text-signup{
@@ -11361,6 +11425,28 @@ th {
     margin-top: 0rem;
     margin-bottom: 0rem;
     border-radius: 25px;
+  }
+  /*MoviesPage*/
+  .movie-card-tittle{
+    font-size: 20px;
+  }
+  .movie-card-category{
+    font-size: 10px;
+  }
+  .card-body-movies{
+    padding: 1rem 1rem;
+    height: 9rem;
+  }
+  .movie-card-img,
+  .movie-card-img-top,
+  .movie-card-img-bottom {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .movie-card-plus-bg {
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -11424,6 +11510,28 @@ th {
   .LoginPage-SVG{
    display: none;
   }
+  /*MoviesPage*/
+  .movie-card-tittle{
+    font-size: 20px;
+  }
+  .movie-card-category{
+    font-size: 10px;
+  }
+  .card-body-movies{
+    padding: 1rem 1rem;
+    height: 9rem;
+  }
+  .movie-card-img,
+  .movie-card-img-top,
+  .movie-card-img-bottom {
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+  }
+  .movie-card-plus-bg {
+    height: 60px;
+    width: 60px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -11468,6 +11576,29 @@ th {
   }
   .LoginPage-SVG{
    display: none;
+  }
+  /*MoviesPage*/
+  .movie-card-tittle{
+    font-size: 15px;
+  }
+  .movie-card-category{
+    font-size: 10px;
+  }
+  .card-body-movies{
+    padding: 1rem 1rem;
+    height: 7rem;
+  }
+  .movie-card-img,
+  .movie-card-img-top,
+  .movie-card-img-bottom {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .movie-card-plus-bg {
+    height: 50px;
+    width: 50px;
+    margin-top: -45px;
   }
 }
 
@@ -11542,6 +11673,29 @@ th {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .movie-card-tittle{
+    font-size: 10px;
+  }
+  /*MoviesPage*/
+  .movie-card-category{
+    font-size: 10px;
+  }
+  .card-body-movies{
+    padding: 0rem;
+    height: 5rem;
+  }
+  .movie-card-img,
+  .movie-card-img-top,
+  .movie-card-img-bottom {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+  }
+  .movie-card-plus-bg {
+    height: 30px;
+    width: 30px;
+    margin-top: -28px;
   }
 }
 
@@ -11635,41 +11789,26 @@ th {
     margin-left: auto;
     margin-right: auto;
   }
+  .movie-card-tittle{
+    font-size: 20px;
+  }
+  .movie-card-category{
+    font-size: 12px;
+  }
+  .card-body-movies{
+    padding: 1rem 1rem;
+    height: 9rem;
+  }
+  .movie-card-img,
+  .movie-card-img-top,
+  .movie-card-img-bottom {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .movie-card-plus-bg {
+    height: 60px;
+    width: 60px;
+    margin-top: -50px;
+  }
 }
-
-/* ------------------------------- MoviesPage ------------------------------- */
-.background::after{
-  transform: skewY(3deg);
-  transform-origin:left bottom;
-  background-color:#dddddd ;
-}
-.card-body-movies{
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
-  height: 9rem;
-}
-.card-img-container{
-  position: relative;
-  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
-}
-.movie-card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-}
-.movie-card-img,
-.movie-card-img-top,
-.movie-card-img-bottom {
-  width: 100%;
-  max-height: 16rem;
-  object-fit: cover;
-}
-/* ----------------------------- MoviesPage End ----------------------------- */
