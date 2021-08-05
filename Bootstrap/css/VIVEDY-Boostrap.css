@@ -11394,8 +11394,9 @@ th {
   text-decoration: none;
   white-space: nowrap;
   font-family: "Phenomena-Regular";
-  color: var(--bs-light);
+  color: var(--bs-light) !important;
   font-weight: 900;
+  transition: 0.75s;
 }
 .navbar-darkred{
   background-color: var(--bs-darkred);
