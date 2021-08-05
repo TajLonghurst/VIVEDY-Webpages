@@ -11383,6 +11383,38 @@ th {
             animation: tada 1.5s ease infinite;
 }
 /* ------------------------------- Animations ------------------------------- */
+/* --------------------------- Red scroled Navbar --------------------------- */
+.scrolled-navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.scrolled-navbar-brand-style {
+  font-size: 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Phenomena-Regular";
+  color: var(--bs-light);
+  font-weight: 900;
+}
+.navbar-darkred{
+  background-color: var(--bs-darkred);
+  box-shadow: rgba(0, 0, 0, 0.514) 0px 5px 15px;
+}
+.scrolled-navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1.75rem;
+  padding-top: 1.75rem;
+}
+/* --------------------------- Red scrolled Navbar -------------------------- */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*HOMEPAGE START*/
@@ -11526,6 +11558,11 @@ th {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
+  /*Scrolled NavBar*/
+  .scrolled-navbar {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -11622,6 +11659,11 @@ th {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
+    /*Scrolled NavBar*/
+  .scrolled-navbar {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -11701,6 +11743,11 @@ th {
   .searchContainer{
     margin-top: 5rem;
     margin-bottom: 2rem;
+  }
+    /*Scrolled NavBar*/
+  .scrolled-navbar {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
   }
 }
 
@@ -11810,6 +11857,11 @@ th {
   .searchContainer{
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+  /*Scrolled NavBar*/
+  .scrolled-navbar {
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
   }
 }
 
@@ -11936,5 +11988,10 @@ th {
   .searchContainer{
     margin-top: 5rem;
     margin-bottom: 2rem;
+  }
+  /*Scrolled NavBar*/
+  .scrolled-navbar {
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
   }
 }
