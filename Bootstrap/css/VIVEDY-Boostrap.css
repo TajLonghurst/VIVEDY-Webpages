@@ -11865,8 +11865,8 @@ th {
   }
   /*Scrolled NavBar*/
   .scrolled-navbar {
-    padding-bottom: 1.75rem;
-    padding-top: 1.75rem;
+    padding-bottom: 0.60rem;
+    padding-top: 0.60rem;
   }
 }
 
