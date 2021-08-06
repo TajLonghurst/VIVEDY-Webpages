@@ -4232,6 +4232,7 @@ fieldset:disabled .btn {
   padding-top: 1.25rem;
   padding-left: 4rem;
   padding-right: 3rem;
+  transition: 0.20s;
 }
 
 .navbar > .container,
@@ -10917,7 +10918,7 @@ th {
   padding: 0.65rem;
   padding-left: 1.5rem;
   padding-right: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   transition: 0.5s;
 }
 .input-signup:focus{
@@ -11384,26 +11385,26 @@ th {
 }
 /* ------------------------------- Animations ------------------------------- */
 /* --------------------------- Red scroled Navbar --------------------------- */
+/*
 .scrolled-navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
 }
+*/
 .scrolled-navbar-brand-style {
   font-size: 2rem;
   text-decoration: none;
   white-space: nowrap;
   font-family: "Phenomena-Regular";
-  color: var(--bs-light) !important;
+  color: var(--bs-darkred) !important;
   font-weight: 900;
-  transition: 0.75s;
 }
 .navbar-darkred{
-  background-color: var(--bs-darkred);
-  box-shadow: rgba(0, 0, 0, 0.514) 0px 5px 15px;
+  background-color: var(--bs-light);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .scrolled-navbar {
-  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -11412,8 +11413,11 @@ th {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-bottom: 1.75rem;
-  padding-top: 1.75rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  transition: 0.20s;
+  padding-left: 4rem;
+  padding-right: 3rem;
 }
 /* --------------------------- Red scrolled Navbar -------------------------- */
 /* Extra small devices (phones, 600px and down) */
@@ -11992,7 +11996,7 @@ th {
   }
   /*Scrolled NavBar*/
   .scrolled-navbar {
-    padding-bottom: 1.75rem;
-    padding-top: 1.75rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
   }
 }
