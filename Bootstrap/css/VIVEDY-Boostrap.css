@@ -11393,13 +11393,13 @@ th {
 }
 /* ------------------------------- Animations ------------------------------- */
 /* --------------------------- Red scroled Navbar --------------------------- */
-/*
+
 .scrolled-navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
 }
-*/
+
 .scrolled-navbar-brand-style {
   font-size: 2rem;
   text-decoration: none;
@@ -11428,6 +11428,77 @@ th {
   padding-right: 3rem;
 }
 /* --------------------------- Red scrolled Navbar -------------------------- */
+/* -------------------------- Indivudal MoviesPage -------------------------- */
+.Indivudal-Card{
+  position: relative;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  max-width: 525px;
+  margin: 6rem;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  background-color: var(--bs-light);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.movieIndividual-card-category{
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  text-align: center;
+  text-transform: none;
+  font-weight: 500;
+}
+.movieIndividual-cardBody-category{
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+.movieIndividual-cardTittle{
+  font-family: "Poppins-Bold";
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-bottom: 2rem;
+}
+.movieIndividual-cardTextContent{
+  text-align: center;
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  text-transform: unset;
+}
+.movieIndividual-navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Phenomena-Regular";
+  color: var(--bs-darkred);
+  font-weight: 900;
+}
+.movieIndividual-ytCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  min-height: 400px;
+  height: 80%;
+  width: 90%;
+  border-radius: 25px;
+  border: #dddddd solid 2px;
+}
+
+/* -------------------------- Indivudal MoviesPage -------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              Moblie Responsive                             */
+/* -------------------------------------------------------------------------- */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*HOMEPAGE START*/
@@ -11576,6 +11647,10 @@ th {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
+  /*movieIndividual*/
+  .movieIndividual-card-category{
+    font-size: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -11677,6 +11752,9 @@ th {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
+  .movieIndividual-card-category{
+    font-size: 10px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -11761,6 +11839,10 @@ th {
   .scrolled-navbar {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+  }
+  /*movieIndividual*/
+  .movieIndividual-card-category{
+    font-size: 12px;
   }
 }
 
@@ -11875,6 +11957,10 @@ th {
   .scrolled-navbar {
     padding-bottom: 0.60rem;
     padding-top: 0.60rem;
+  }
+  /*movieIndividual*/
+  .movieIndividual-card-category{
+    font-size: 12px;
   }
 }
 
@@ -12007,4 +12093,11 @@ th {
     padding-bottom: 0.75rem;
     padding-top: 0.75rem;
   }
+  /*movieIndividual*/
+  .movieIndividual-card-category{
+    font-size: 12px;
+  }
 }
+/* -------------------------------------------------------------------------- */
+/*                              Moblie Responsive                             */
+/* -------------------------------------------------------------------------- */
