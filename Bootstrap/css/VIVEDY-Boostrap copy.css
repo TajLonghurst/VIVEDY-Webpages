@@ -11587,8 +11587,9 @@ th {
   margin-bottom: 1rem;
 }
 .displayedDate-Body{
-  width: 100%;
+  width: 20rem;
   height: 100%;
+  background-color: var(--bs-light);
 }
 .IndivudalTitle-Card{
   color: var(--bs-secondary);
@@ -11609,7 +11610,7 @@ th {
   height: 2px;
   background-color: #dddddd;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 .IndivudalTitle-Smalltext{
   color: var(--bs-dark);
@@ -11655,7 +11656,9 @@ th {
   transform: scale(1.1);
   cursor: pointer;
 }
+/* ------------------------------- Swipper.js ------------------------------- */
 
+/* ------------------------------- Swipper.js ------------------------------- */
 
 
 
