@@ -11507,9 +11507,9 @@ th {
   background: #fff;
   border-radius: 10px;
   width: 23rem;
-  position: fixed;
+  position: relative;
+  float: right;
 }
-
 .movietimes-card-img-top{
   width: 100%;
   height: 7rem;
@@ -11605,7 +11605,7 @@ th {
 }
 .lineSpacer{
   content: "";
-  width: 78.2rem;
+  width: 100%;
   height: 2px;
   background-color: #dddddd;
   margin-top: 2rem;
@@ -11655,8 +11655,6 @@ th {
   transform: scale(1.1);
   cursor: pointer;
 }
-
-
 
 
 /* -------------------------------------------------------------------------- */
@@ -11818,6 +11816,16 @@ th {
   .Indivudal-Card{
     margin: 0rem;
   }
+  /*MovieTimes*/
+  .lineSpacer{
+    width: 100%;
+  }
+  .displayedDate-Body {
+    width: 18rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -11922,6 +11930,16 @@ th {
   .movieIndividual-card-category{
     font-size: 10px;
   }
+  .displayedDate-Body {
+    width: 100%;
+    height: 100%;
+  }
+    .displayedDate-Body {
+    width: 26rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -12010,6 +12028,13 @@ th {
   /*movieIndividual*/
   .movieIndividual-card-category{
     font-size: 12px;
+  }
+  /*MovieTimes*/
+  .displayedDate-Body {
+    width: 20rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -12128,6 +12153,19 @@ th {
   /*movieIndividual*/
   .movieIndividual-card-category{
     font-size: 12px;
+  }
+  /*movieTimes*/
+  .displayedDate-Body {
+    width: 10rem;
+  }
+  .IndivudalTitle-SeatAmount{
+    font-size: 0.50rem;
+  }
+  .IndivudalTitle-Card{
+    font-size: 0.75rem;
+  }
+  .IndivudalTitle-Smalltext {
+    font-size: 0.50rem;
   }
 }
 
@@ -12263,6 +12301,19 @@ th {
   /*movieIndividual*/
   .movieIndividual-card-category{
     font-size: 12px;
+  }
+  /*MoviesTime*/
+    .displayedDate-Body {
+    width: 100%;
+  }
+  .IndivudalTitle-SeatAmount{
+    font-size: 0.60rem;
+  }
+  .IndivudalTitle-Card{
+    font-size: 1rem;
+  }
+  .IndivudalTitle-Smalltext{
+    font-size: 0.75rem;
   }
 }
 /* -------------------------------------------------------------------------- */
