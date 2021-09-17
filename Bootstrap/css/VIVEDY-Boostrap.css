@@ -11505,7 +11505,7 @@ th {
   flex: 1 1 auto;
   border: 1px solid #CCCCCC;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 7px;
   width: 23rem;
   position: fixed;
   float: right;
@@ -11514,8 +11514,8 @@ th {
   width: 100%;
   height: 7rem;
   object-fit: cover;
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   opacity: 0.5;
 }
 .movietimescard-tittlebanner{
@@ -12695,7 +12695,7 @@ th {
     font-size: 12px;
   }
   /*MoviesTime*/
-    .displayedDate-Body {
+  .displayedDate-Body {
     width: 100%;
   }
   .IndivudalTitle-SeatAmount{

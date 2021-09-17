@@ -1,2 +1,2 @@
 # VIVEDY-Webpages
- These are upgrade UI for vivedy webpage
+ These are upgrade UI Pages for vivedy webpage
