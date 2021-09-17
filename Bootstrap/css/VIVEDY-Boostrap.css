@@ -12830,6 +12830,10 @@ th {
     margin-top: 0.40rem;
     text-align: center;
   }
+  .moviescreen{
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
 }
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */
