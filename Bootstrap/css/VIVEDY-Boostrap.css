@@ -11655,7 +11655,43 @@ th {
   transform: scale(1.1);
   cursor: pointer;
 }
+/* ---------------------------- moviesTimes page ---------------------------- */
 
+/* ---------------------------- MoviesSeats PAge ---------------------------- */
+.movieseats-row{
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  height: 100%;
+  padding: 1rem;
+  justify-content: center;
+}
+.movie-seat{
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 2px solid #939393;
+  border-radius: 7px;
+  background-color: white;
+  margin: 0.55rem;
+  margin-right: 0.40rem;
+  margin-left: 0.40rem;
+}
+.movie-seat:hover{
+  border: 2px solid var(--bs-darkred);
+  transform: scale(1.2);
+}
+.movie-seatText{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.90rem;
+}
+.movie-seatText-center{
+  text-align: center;
+  margin-top: 0.30rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */
