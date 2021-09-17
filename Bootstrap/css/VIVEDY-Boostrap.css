@@ -11696,6 +11696,27 @@ th {
   margin-right: 0.40rem;
   margin-left: 0.40rem;
 }
+.movie-seatText-taken-demo{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.83rem;
+}
+.movie-seatText-demo{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.movie-seatText-selected-demo{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #fff;
+}
 .movie-seat{
   width: 2.1rem;
   height: 2.1rem;
@@ -11790,6 +11811,10 @@ th {
   font-size: 0.80rem;
   margin-bottom: 0rem;
   margin-right: 2rem;
+}
+.movie-seatText-center-demo{
+  margin-top: 0.40rem;
+  text-align: center;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -12092,7 +12117,7 @@ th {
     margin-bottom: 1rem;
     position: relative;
   }
-  /*MovieSeats*/
+/*MovieSeats*/
 .movie-seat{
     width: 1.1rem;
     height: 1.1rem;
@@ -12129,14 +12154,8 @@ th {
     margin-top: 0.16rem;
   }
   .MovieAvabilityDetail-text {
-    color: var(--bs-dark);
-    font-family: 'Poppins-Regular';
-    letter-spacing: 1px;
-    font-size: 0.75rem;
-    margin-bottom: 0rem;
-    margin-right: 2rem;
+    font-size: 0.60rem;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
