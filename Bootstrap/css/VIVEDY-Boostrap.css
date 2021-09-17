@@ -127,7 +127,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 abbr[title],
@@ -11657,7 +11657,7 @@ th {
 }
 /* ---------------------------- moviesTimes page ---------------------------- */
 
-/* ---------------------------- MoviesSeats PAge ---------------------------- */
+/* ---------------------------- MoviesSeats Page ---------------------------- */
 .movieseats-row{
   width: 100%;
   position: relative;
@@ -11993,6 +11993,69 @@ th {
     margin-bottom: 1rem;
     position: relative;
   }
+/*MovieSeats*/
+  .movie-seat{
+    width: 0.80rem;
+    height: 0.80rem;
+    border: 1px solid #939393;
+    border-radius: 3px;
+    margin: 0.15rem;
+  }
+  .movie-seat-taken{
+    width: 0.80rem;
+    height: 0.80rem;
+    border: 1px solid var(--bs-darkred);
+    border-radius: 3px;
+    margin: 0.15rem;
+  }
+  .movie-seat-selected{
+    width: 0.80rem;
+    height: 0.80rem;
+    border-radius: 3px;
+    margin: 0.15rem;
+  }
+  .moviescreen{
+    margin-bottom: 2rem;
+  }
+  .movie-seatText {
+    font-size: 0.38rem;
+  }
+  .movie-seatText-taken {
+    font-size: 0.38rem;
+  }
+  .movie-seatText-selected {
+    font-size: 0.38rem;
+  }
+  .movie-seatText-center{
+    margin-top: 0.06rem;
+  }
+  .MovieAvabilityDetail-text {
+    font-size: 0.50rem;
+  }
+  .movie-seat-demo {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .movie-seat-taken-demo {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .movie-seat-selected-demo {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .movie-seatText-center-demo {
+    margin-top: 0.20rem;
+    text-align: center;
+  }
+  .MovieAvabilityDetail-body {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -12119,39 +12182,39 @@ th {
   }
 /*MovieSeats*/
 .movie-seat{
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border: 1px solid #939393;
     border-radius: 5px;
-    margin: 0.30rem;
+    margin: 0.20rem;
   }
 .movie-seat-taken{
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border: 1px solid var(--bs-darkred);
     border-radius: 5px;
-    margin: 0.30rem;
+    margin: 0.20rem;
   }
 .movie-seat-selected{
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border-radius: 5px;
-    margin: 0.30rem;
+    margin: 0.20rem;
   }
   .moviescreen{
     margin-bottom: 2rem;
   }
   .movie-seatText {
-    font-size: 0.50rem;
+    font-size: 0.55rem;
   }
   .movie-seatText-taken {
-    font-size: 0.50rem;
+    font-size: 0.55rem;
   }
   .movie-seatText-selected {
-    font-size: 0.47rem;
+    font-size: 0.53rem;
   }
   .movie-seatText-center{
-    margin-top: 0.16rem;
+    margin-top: 0.17rem;
   }
   .MovieAvabilityDetail-text {
     font-size: 0.60rem;
@@ -12255,6 +12318,45 @@ th {
   .movieTimes-card-plus-icon {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  /*MovieSeats*/
+  .movie-seat{
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 1px solid #939393;
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .movie-seat-taken{
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 1px solid var(--bs-darkred);
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .movie-seat-selected{
+    width: 1.9rem;
+    height: 1.9rem;;
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .moviescreen{
+    margin-bottom: 2rem;
+  }
+  .movie-seatText {
+    font-size: 0.80rem;
+  }
+  .movie-seatText-taken {
+    font-size: 0.80rem;
+  }
+  .movie-seatText-selected {
+    font-size: 0.77rem;
+  }
+  .movie-seatText-center{
+    margin-top: 0.23rem;
+  }
+  .MovieAvabilityDetail-text {
+    font-size: 0.60rem;
   }
 }
 
@@ -12418,6 +12520,45 @@ th {
   .movietimes-card-img-top {
     height: 5rem;
   }
+  /*MovieSeats*/
+  .movie-seat{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid #939393;
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .movie-seat-taken{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid var(--bs-darkred);
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .movie-seat-selected{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 7px;
+    margin: 0.20rem;
+  }
+  .moviescreen{
+    margin-bottom: 2rem;
+  }
+  .movie-seatText {
+    font-size: 0.65rem;
+  }
+  .movie-seatText-taken {
+    font-size: 0.65rem;
+  }
+  .movie-seatText-selected {
+    font-size: 0.58rem;
+  }
+  .movie-seatText-center{
+    margin-top: 0.25rem;
+  }
+  .MovieAvabilityDetail-text {
+    font-size: 0.60rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -12574,6 +12715,120 @@ th {
     margin-right: auto;
     margin-top: 0rem;
     margin-bottom: 0rem;
+  }
+  /*Movies Seats*/
+  .movie-seat-demo{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 2px solid #939393;
+    border-radius: 7px;
+    background-color: white;
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seat-taken-demo{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 2px solid var(--bs-darkred);
+    border-radius: 7px;
+    background-color: white;
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seat-selected-demo{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 2px solid var(--bs-darkred);
+    border-radius: 7px;
+    background-color: var(--bs-darkred);
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seatText-taken-demo{
+    letter-spacing: 0px;
+    font-size: 0.83rem;
+  }
+  .movie-seatText-demo{
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .movie-seatText-selected-demo{
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  .movie-seat{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 1px solid #939393;
+    border-radius: 7px;
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seat-taken{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 1px solid var(--bs-darkred);
+    border-radius: 7px;
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seat-selected{
+    width: 2.1rem;
+    height: 2.1rem;
+    border: 1px solid var(--bs-darkred);
+    border-radius: 7px;
+    background-color: var(--bs-darkred);
+    margin: 0.40rem;
+    margin-right: 0.40rem;
+    margin-left: 0.40rem;
+  }
+  .movie-seatText-taken{
+    letter-spacing: 0px;
+    font-size: 0.83rem;
+  }
+  .movie-seatText{
+    letter-spacing: 0px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .movie-seatText-selected{
+    letter-spacing: 0px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  .movie-seatText-center{
+    text-align: center;
+    margin-top: 0.32rem;
+  }
+  .MovieAvabilityDetail-body{
+    width: 100%;
+    text-align: center;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .MovieAvabilityDetail-text{
+    font-size: 0.80rem;
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+  }
+  .movie-seatText-center-demo{
+    margin-top: 0.40rem;
+    text-align: center;
   }
 }
 /* -------------------------------------------------------------------------- */
