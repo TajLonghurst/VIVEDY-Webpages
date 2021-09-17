@@ -11686,7 +11686,6 @@ th {
   margin-right: 0.40rem;
   margin-left: 0.40rem;
 }
-
 .movie-seat-taken{
   width: 2.1rem;
   height: 2.1rem;
@@ -11718,7 +11717,7 @@ th {
 }
 .movie-seatText-center{
   text-align: center;
-  margin-top: 0.30rem;
+  margin-top: 0.32rem;
 }
 .moviescreen{
   background-color: #939393;
