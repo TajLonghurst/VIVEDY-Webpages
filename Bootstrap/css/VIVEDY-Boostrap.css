@@ -12013,6 +12013,7 @@ th {
   height: 30rem;
   margin-left: auto;
   margin-right: auto;
+  animation: bottom-up 2.5s forwards;
 }
 /* ---------------------------- Confirmation Page --------------------------- */
 
@@ -12280,26 +12281,18 @@ th {
   /*confermation Page*/
   .confirmationPage-SVG{
     margin-top: 2rem;
-    display: block;
     width: 16rem;
     height: 16rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   .confirmation-text{
     color: var(--bs-darkred);
-    font-family: 'Poppins-Bold';
-    text-transform: uppercase;
     letter-spacing: 0px;
     font-size: 2.5rem;
-    text-align: center;
   }
 .confirmation-text-small{
     color: #999999;
-    font-family: 'Poppins-Regular';
     letter-spacing: 0px;
     font-size: 1.5rem;
-    text-align: center;
   }
 }
 
@@ -12472,26 +12465,18 @@ th {
     /*confermation Page*/
   .confirmationPage-SVG{
     margin-top: 2rem;
-    display: block;
     width: 22rem;
     height: 22rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   .confirmation-text{
     color: var(--bs-darkred);
-    font-family: 'Poppins-Bold';
-    text-transform: uppercase;
     letter-spacing: 0px;
     font-size: 2.5rem;
-    text-align: center;
   }
   .confirmation-text-small{
     color: #999999;
-    font-family: 'Poppins-Regular';
     letter-spacing: 0px;
     font-size: 1.5rem;
-    text-align: center;
   }
 }
 
@@ -12661,26 +12646,18 @@ th {
   /*confirmation page*/
   .confirmationPage-SVG{
     margin-top: 2rem;
-    display: block;
     width: 27rem;
     height: 27rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   .confirmation-text{
     color: var(--bs-darkred);
-    font-family: 'Poppins-Bold';
-    text-transform: uppercase;
     letter-spacing: 0px;
     font-size: 2.5rem;
-    text-align: center;
   }
   .confirmation-text-small{
     color: #999999;
-    font-family: 'Poppins-Regular';
     letter-spacing: 0px;
     font-size: 1.5rem;
-    text-align: center;
   }
 }
 
@@ -12891,26 +12868,18 @@ th {
   /*confirmation page*/
   .confirmationPage-SVG{
     margin-top: 2rem;
-    display: block;
     width: 27rem;
     height: 27rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   .confirmation-text{
     color: var(--bs-darkred);
-    font-family: 'Poppins-Bold';
-    text-transform: uppercase;
     letter-spacing: 0px;
     font-size: 3rem;
-    text-align: center;
   }
   .confirmation-text-small{
     color: #999999;
-    font-family: 'Poppins-Regular';
     letter-spacing: 0px;
     font-size: 2rem;
-    text-align: center;
   }
 }
 
@@ -13212,11 +13181,8 @@ th {
   /*confermation Page*/
   .confirmationPage-SVG{
     margin-top: 2rem;
-    display: block;
     width: 30rem;
     height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 /* -------------------------------------------------------------------------- */
