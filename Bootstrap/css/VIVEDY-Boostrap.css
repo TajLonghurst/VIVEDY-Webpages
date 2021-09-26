@@ -11308,78 +11308,68 @@ th {
 /* ----------------------------- MoviesPage End ----------------------------- */
 /* ------------------------------- Animations ------------------------------- */
 @keyframes left-to-right{
-    0%{
-        opacity: 0;
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
-    100%{
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
+  0%{
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }
 @keyframes right-to-left{
-    0%{
-        opacity: 0;
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
+  0%{
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }
 @keyframes bottom-up{
-    0%{
-        opacity: 0;
-        -webkit-transform: translateY(20%);
-        transform: translateY(20%);
-    }
-    100%{
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%);
-    }
+  0%{
+    opacity: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
 }
-@keyframes tada
-{
-    from
-    {
-        -webkit-transform: scale3d(1, 1, 1);
-                transform: scale3d(1, 1, 1);
-    }
-
-    10%,
-    20%
-    {
-        -webkit-transform: scale3d(.95, .95, .95) rotate3d(0, 0, 1, -10deg);
-                transform: scale3d(.95, .95, .95) rotate3d(0, 0, 1, -10deg);
-    }
-
-    30%,
-    50%,
-    70%,
-    90%
-    {
-        -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
-                transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 10deg);
-    }
-
-    40%,
-    60%,
-    80%
-    {
-        -webkit-transform: rotate3d(0, 0, 1, -10deg);
-                transform: rotate3d(0, 0, 1, -10deg);
-    }
-
-    to
-    {
-        -webkit-transform: scale3d(1, 1, 1);
-                transform: scale3d(1, 1, 1);
-    }
+@keyframes ProgressBarPartOne {
+  0%{
+    height: 0%;
+  }
+  100%{
+    height: 100%;
+  }
+}
+@keyframes CheckpointPartOne {
+  0%{
+    border: 4px solid #CCCCCC;
+  }
+  100%{
+    border: 4px solid #6BCF1C;
+  }
+}
+@keyframes ProgressBarPartTwo {
+  0%{
+    height: 0%;
+  }
+  100%{
+    height: 100%;
+  }
+}
+@keyframes LoadingBarRotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
 }
 /*-webkit-Animation must come first before animation*/
 .animation-LeftToRight{
@@ -12016,6 +12006,110 @@ th {
   animation: bottom-up 2.5s forwards;
 }
 /* ---------------------------- Confirmation Page --------------------------- */
+
+/* ---------------------------- loadingMoviePage ---------------------------- */
+.loadingMoviePage-SVG{
+  max-width: 40rem;
+  max-height: 40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: bottom-up 0.5s forwards;
+  display: block;
+}
+.loadingbar-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadingbar-innerbody{
+  position: relative;
+}
+.loadingbar-bg-One{
+  position: relative;
+  content: "";
+  width: 4px;
+  height: 16rem;
+  background: #CCCCCC;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loadingbar-bg-Two{
+  position: relative;
+  content: "";
+  width: 4px;
+  height: 16rem;
+  background: #CCCCCC;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loadingbar-One{
+  position: relative;
+  content: "";
+  width: 4px;
+  height: 0%;
+  background: #6BCF1C;
+}
+.loadingbar-Two{
+  position: relative;
+  content: "";
+  width: 4px;
+  height: 0%;
+  background: #6BCF1C;
+}
+.loadingProgressBar{
+  animation: ProgressBarPartOne 3.5s infinite;
+}
+.loadingCheckpoint{
+  animation: CheckpointPartOne 3.5s infinite;
+}
+.loadingbar-checkpoint-active{
+  content: "";
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: solid #6BCF1C 4px;
+  background: #fff;
+  display: flex;
+}
+.loadingbar-checkpoint-unactive{
+  content: "";
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: solid #CCCCCC 4px;
+  background: #fff;
+  display: flex;
+}
+.loadingbar-checkpoint-unactive{
+  content: "";
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: solid #CCCCCC 4px;
+  background: #fff;
+  display: flex;
+}
+.Checkpoint-Text-aglin{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+.Checkpoint-Text{
+  color: #999999;
+  font-family: 'Poppins-Regular';
+  letter-spacing: 0px;
+  font-size: 1rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.loadingpage-check{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+/* ---------------------------- loadingMoviePage ---------------------------- */
 
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */

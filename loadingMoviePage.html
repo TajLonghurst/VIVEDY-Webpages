@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIVEDY || Movies Loading Page</title>
+    <link rel="stylesheet" href="Bootstrap/css/VIVEDY-Boostrap.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="ScrollBarRemoved" style="background-color: #eeeeee93;">
+    <!--Nav Bar-->
+    <nav id="NAVBAR" class="navbar navbar-expand-lg navbar-transparent fixed-top">
+        <a id="NAVBARTITLE" class="movieIndividual-navbar-brand" href="Index.html">VIVEDY</a>
+        <button class="ms-auto navbar-toggler " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5">
+
+            </ul>
+            <form class="form-inline">
+                <a id="NavBarbtn" class="btn btn-outline-primary Poppins-Bold" href="#" type="submit">Login</a>
+            </form>
+        </div>
+    </nav>
+    <!--Nav Bar-->
+    <div class="container SignupContainer">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="loadingbar-body">
+                    <div class="loadingbar-innerbody">
+                        <div class="loadingbar-checkpoint-active">
+                            <img class="loadingpage-check" src="/svg/LoadingMoviesPage-Check-SVG.svg"
+                                alt="Img failed to load">
+                            <div class="Checkpoint-Text-aglin">
+                                <p class="Checkpoint-Text">Movie Booking Time</p>
+                            </div>
+                        </div>
+                        <div class="loadingbar-bg-One">
+                            <div class="loadingbar-One loadingProgressBar"></div>
+                        </div>
+                        <div class="loadingbar-checkpoint-unactive">
+                            <img class="loadingpage-check" src="/svg/LoadingMoviePage-Exit-SVG.svg">
+                            <div class="Checkpoint-Text-aglin">
+                                <p class="Checkpoint-Text">Select Movie Seats</p>
+                            </div>
+                        </div>
+                        <div class="loadingbar-bg-Two">
+                            <div class="loadingbar-Two"></div>
+                        </div>
+                        <div class="loadingbar-checkpoint-unactive">
+                            <img class="loadingpage-check" src="/svg/LoadingMoviePage-Exit-SVG.svg">
+                            <div class="Checkpoint-Text-aglin">
+                                <p class="Checkpoint-Text">Payment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <img class="loadingMoviePage-SVG" src="/svg/LoadingMoviePage.svg" alt="Welcome Image here">
+            </div>
+        </div>
+    </div>
+    <script src="/Bootstrap/js/NavBarTransitions.js"></script>
+</body>
+
+</html>
