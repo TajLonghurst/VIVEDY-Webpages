@@ -12019,7 +12019,6 @@ th {
 }
 .loadingbar-body{
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .loadingbar-innerbody{
@@ -12383,10 +12382,53 @@ th {
     letter-spacing: 0px;
     font-size: 2.5rem;
   }
-.confirmation-text-small{
+  .confirmation-text-small{
     color: #999999;
     letter-spacing: 0px;
     font-size: 1.5rem;
+  }
+  /*LoadingBookingPage*/
+  .loadingMoviePage-SVG{
+    display: none;
+  }
+  .loadingbar-checkpoint-active{
+    width: 2rem;
+    height: 2rem;
+    border: solid #6BCF1C 3px;
+  }
+  .loadingbar-checkpoint-unactive{
+    width: 2rem;
+    height: 2rem;
+    border: solid #CCCCCC 3px;
+  }
+  .loadingpage-check{
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .loadingbar-One{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-Two{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-bg-One{
+    width: 3px;
+    height: 10rem;
+  }
+  .loadingbar-bg-Two{
+    width: 3px;
+    height: 10rem;
+  }
+  .Checkpoint-Text{
+    letter-spacing: 0px;
+    font-size: 0.60rem;
+  }
+  .loadingbar-body{
+    display: flex;
+    margin-left: 4rem;
+    align-items: center;
   }
 }
 
@@ -12414,7 +12456,7 @@ th {
   /*HOMEPAGE END*/
   /*ABOUTPAGE START*/
   .icon-center-aboutpage{
-     visibility: hidden;
+    visibility: hidden;
   }
   .aboutPage-SVG{
     max-width: 22rem;
@@ -12571,6 +12613,49 @@ th {
     color: #999999;
     letter-spacing: 0px;
     font-size: 1.5rem;
+  }
+  /*LoadingBookingPage*/
+  .loadingMoviePage-SVG{
+    display: none;
+  }
+  .loadingbar-checkpoint-active{
+    width: 2.3rem;
+    height: 2.3rem;
+    border: solid #6BCF1C 3px;
+  }
+  .loadingbar-checkpoint-unactive{
+    width: 2.3rem;
+    height: 2.3rem;
+    border: solid #CCCCCC 3px;
+  }
+  .loadingpage-check{
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  .loadingbar-One{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-Two{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-bg-One{
+    width: 3px;
+    height: 10rem;
+  }
+  .loadingbar-bg-Two{
+    width: 3px;
+    height: 10rem;
+  }
+  .Checkpoint-Text{
+    letter-spacing: 0px;
+    font-size: 0.80rem;
+  }
+  .loadingbar-body{
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
   }
 }
 
@@ -12752,6 +12837,49 @@ th {
     color: #999999;
     letter-spacing: 0px;
     font-size: 1.5rem;
+  }
+  /*LoadingBookingPage*/
+  .loadingMoviePage-SVG{
+    display: none;
+  }
+  .loadingbar-checkpoint-active{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid #6BCF1C 4px;
+  }
+  .loadingbar-checkpoint-unactive{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid #CCCCCC 4px;
+  }
+  .loadingpage-check{
+    width: 2rem;
+    height: 2rem;
+  }
+  .loadingbar-One{
+    width: 4px;
+    height: 0%;
+  }
+  .loadingbar-Two{
+    width: 4px;
+    height: 0%;
+  }
+  .loadingbar-bg-One{
+    width: 4px;
+    height: 10rem;
+  }
+  .loadingbar-bg-Two{
+    width: 4px;
+    height: 10rem;
+  }
+  .Checkpoint-Text{
+    letter-spacing: 0px;
+    font-size: 0.90rem;
+  }
+  .loadingbar-body{
+    display: flex;
+    margin-left: 16rem;
+    align-items: center;
   }
 }
 
@@ -12974,6 +13102,52 @@ th {
     color: #999999;
     letter-spacing: 0px;
     font-size: 2rem;
+  }
+  /*LoadingBookingPage*/
+  .loadingMoviePage-SVG{
+    max-width: 22rem;
+    max-height: 22rem;
+    display: block;
+  }
+   .loadingbar-checkpoint-active{
+    width: 2rem;
+    height: 2rem;
+    border: solid #6BCF1C 3px;
+  }
+  .loadingbar-checkpoint-unactive{
+    width: 2rem;
+    height: 2rem;
+    border: solid #CCCCCC 3px;
+  }
+  .loadingpage-check{
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .loadingbar-One{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-Two{
+    width: 3px;
+    height: 0%;
+  }
+  .loadingbar-bg-One{
+    width: 3px;
+    height: 8rem;
+  }
+  .loadingbar-bg-Two{
+    width: 3px;
+    height: 8rem;
+  }
+  .Checkpoint-Text{
+    letter-spacing: 0px;
+    font-size: 0.60rem;
+  }
+  .loadingbar-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
   }
 }
 
@@ -13277,6 +13451,68 @@ th {
     margin-top: 2rem;
     width: 30rem;
     height: 30rem;
+  }
+  /*LoadingBookingPage*/
+  .loadingMoviePage-SVG{
+    max-width: 38rem;
+    max-height: 38rem;
+    display: block;
+  }
+  .loadingbar-checkpoint-active{
+    content: "";
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: solid #6BCF1C 4px;
+  }
+  .loadingbar-checkpoint-unactive{
+    content: "";
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: solid #CCCCCC 4px;
+  }
+  .loadingbar-checkpoint-unactive{
+    content: "";
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: solid #CCCCCC 4px;
+  }
+  .Checkpoint-Text-aglin{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: 100%;
+  }
+  .Checkpoint-Text{
+    letter-spacing: 0px;
+    font-size: 1rem;
+  }
+  .loadingpage-check{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .loadingbar-bg-One{
+    width: 4px;
+    height: 14rem;
+  }
+  .loadingbar-bg-Two{
+    width: 4px;
+    height: 14rem;
+  }
+  .loadingbar-One {
+    width: 4px;
+    height: 0%;
+  }
+  .loadingbar-Two {
+    width: 4px;
+    height: 0%;
+  }
+  .loadingbar-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
   }
 }
 /* -------------------------------------------------------------------------- */
