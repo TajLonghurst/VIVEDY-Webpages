@@ -12110,6 +12110,44 @@ th {
 }
 /* ---------------------------- loadingMoviePage ---------------------------- */
 
+/* ------------------------------ Loading Page ------------------------------ */
+.lds-dual-ring {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lds-dual-ring:after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid var(--bs-darkred);
+  border-color: var(--bs-darkred) transparent var(--bs-darkred) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loadingPage-SVG{
+  width: 40rem;
+  height: 40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ------------------------------ Loading Page ------------------------------ */
+
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */
 /* -------------------------------------------------------------------------- */
@@ -13517,3 +13555,4 @@ th {
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */
 /* -------------------------------------------------------------------------- */
+
