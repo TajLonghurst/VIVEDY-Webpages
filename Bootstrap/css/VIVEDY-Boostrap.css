@@ -12148,6 +12148,176 @@ th {
 }
 /* ------------------------------ Loading Page ------------------------------ */
 
+/* ---------------------------- User Proflie Page --------------------------- */
+
+.Userprofile-Details-container{
+  max-width: 525px;
+  margin-top: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.Poppins-Bold-PageTittle-Profile{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 2.5rem;
+  margin-left: 1.75rem;
+}
+.User-Profile-Card{
+  position: relative;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  max-width: 525px;
+  height: 100%;
+  padding: 2.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.75rem;
+  background-color: var(--bs-light);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.User-Details-Text{
+  color: var(--bs-darkred);
+  margin-bottom: 1.2rem;
+}
+.Edit-btn-icon{
+  width: 17px;
+  height: 17px;
+  margin-left: 1px;
+}
+.Edit-btn-Text{
+  color: var(--bs-dark);
+  margin-bottom: 0.25rem;
+  font-family: 'Poppins-Regular';
+  font-size: 0.75rem;
+  display: block;
+  text-align: end;
+}
+.Userprofile-MovieHistory-container {
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-height: 31rem;
+  overflow-y: scroll;
+}
+.Userprofile-container {
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-height: 40rem;
+}
+.Userprofile-MovieHistory-container::-webkit-scrollbar {
+  display: none;
+}
+.textTittle-Profile-form{
+  position: relative;
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.90rem;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+.textTittle-Profile-MovieHistory{
+  position: relative;
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.90rem;
+  margin-top: 1.25rem;
+  margin-left: 0.70rem;
+}
+.IndivudalDateCard-History-Body{
+  max-width: 96%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  border-left: 5px solid #a10000;
+  height: 8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: 0.14s;
+  background: var(--bs-light);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
+}
+.IndivudalTitle-History-Smalltext{
+  color: var(--bs-dark);
+  font-family: 'Poppins-Regular';
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.IndivudalTitle-History-Time{
+  color: var(--bs-secondary);
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.80rem;
+  margin-bottom: 1.2rem;
+  margin-top: 0.35rem;
+  margin-left: 8px;
+}
+.IndivudalTitle-History-SeatAmount{
+  color: var(--bs-dark);
+  font-family: 'Poppins-Regular';
+  letter-spacing: 1px;
+  font-size: 0.60rem;
+  margin-bottom: 0rem;
+  margin-left: 8px;
+}
+.movie-seat-HistoryBooking{
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 2px solid #939393;
+  border-radius: 7px;
+  background-color: white;
+  margin: 0.40rem;
+  margin-top: 0.60rem;
+  margin-right: 0.40rem;
+  margin-left: 0.40rem;
+}
+.movieseats-MovieHistory-row {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.movie-ProfileHistory-seatText{
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 0.85rem;
+}
+.movie-ProflieHistory-img {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 0.5;
+}
+.MovieProfile-History-body{
+  padding: 9px;
+  position: relative;
+}
+.MovieHistoryBody-right{
+  position: relative;
+  clip-path: polygon(18% 0,100% 0, 100% 100%, 0 100%);
+}
+
+/* ---------------------------- User Profile Page --------------------------- */
+
 /* -------------------------------------------------------------------------- */
 /*                              Moblie Responsive                             */
 /* -------------------------------------------------------------------------- */

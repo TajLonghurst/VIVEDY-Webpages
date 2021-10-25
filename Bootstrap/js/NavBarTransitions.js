@@ -3,13 +3,6 @@ window.addEventListener('scroll', function() {
     let header = document.getElementById('NAVBAR');
     let headerTitle = document.getElementById('NAVBARTITLE');
 
-    let LinkOne = document.getElementById('LinkOne');
-    let LinkTwo = document.getElementById('LinkTwo');
-    let LinkThree = document.getElementById('LinkThree');
-    let LinkFour = document.getElementById('LinkFour');
-    let LinkFive = document.getElementById('LinkFive');
-    let NavBarbtn = document.getElementById('NavBarbtn');
-
     let windowPostion1 = window.scrollY >=1;
     let windowPostion2 = window.scrollY <=1;
     
@@ -25,6 +18,14 @@ window.addEventListener('scroll', function() {
     /* ------------ Toggling on and off the navbar classes for links ------------ */
     
 /*
+
+    let LinkOne = document.getElementById('LinkOne');
+    let LinkTwo = document.getElementById('LinkTwo');
+    let LinkThree = document.getElementById('LinkThree');
+    let LinkFour = document.getElementById('LinkFour');
+    let LinkFive = document.getElementById('LinkFive');
+    let NavBarbtn = document.getElementById('NavBarbtn');
+
     LinkOne.classList.toggle('nav-link', windowPostion2);
     LinkOne.classList.toggle('Poppins-Bold', windowPostion2);
     if(window.scrollY >=1){
